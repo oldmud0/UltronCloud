@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltronCloud", "UltronCloud\UltronCloud.csproj", "{D7DFA9A5-BD55-48C3-9E47-132930FA2E3E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5127A50B-221A-4AD7-9EF9-B3808CF0E282} = {5127A50B-221A-4AD7-9EF9-B3808CF0E282}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DokanCloudFS.Mounter", "..\..\DokanCloudFS\DokanCloudFS.Mounter\DokanCloudFS.Mounter.csproj", "{5127A50B-221A-4AD7-9EF9-B3808CF0E282}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{D7DFA9A5-BD55-48C3-9E47-132930FA2E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7DFA9A5-BD55-48C3-9E47-132930FA2E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7DFA9A5-BD55-48C3-9E47-132930FA2E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5127A50B-221A-4AD7-9EF9-B3808CF0E282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5127A50B-221A-4AD7-9EF9-B3808CF0E282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5127A50B-221A-4AD7-9EF9-B3808CF0E282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5127A50B-221A-4AD7-9EF9-B3808CF0E282}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
